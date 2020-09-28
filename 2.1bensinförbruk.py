@@ -1,0 +1,5 @@
+DagensMil = float(input ('Mätarställning idag? '))
+FörraÅretsMil = float(input ('Mätarställning för ett år sedan? '))
+FörbrukningPerMil = float(input('Förbrukning per mil: '))
+print(f'Antal körda mil: {DagensMil - FörraÅretsMil} \nAntal liter bensin: {FörbrukningPerMil}')
+print(f'{FörbrukningPerMil / (DagensMil - FörraÅretsMil)}')
